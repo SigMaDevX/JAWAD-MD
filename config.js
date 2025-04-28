@@ -87,7 +87,7 @@ global.fgsc = 'https://github.com/JawadTechXD/JAWAD-MD'
 global.fgyt = 'https://youtube.com'
 global.fgpyp = 'https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j'
 global.fglog = 'https://whatsapp.com/channel/0029Vb5WgwB8V0tnVsqSmC2N'
-global.thumb = fs.readFileSync(path.join(__dirname, '..', 'assets', 'jawadik.jpg'));
+global.thumb = fs.readFileSync(path.join(__dirname, '.', 'assets', 'jawadik.jpg'));
 
 global.wait = '*⏳ Please hold on, your request is being processed...*\n*▰▰▰▰▰▱▱▱*'
 global.rwait = '⌛'
