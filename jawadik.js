@@ -43,7 +43,7 @@ const port = process.env.PORT || 5000
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-app.use(express.static(path.join(__dirname, '../assets')));
+app.use(express.static(path.join(__dirname, './assets')));
 
 app.get('/', (req, res) => {
   res.redirect('/jawadxd.html');
@@ -98,7 +98,7 @@ async function start(file) {
     start('main.js')
   })
 
-  const pluginsFolder = path.join(path.dirname(currentFilePath), '../plugins')
+  const pluginsFolder = path.join(path.dirname(currentFilePath), './plugins')
 
   fs.readdir(pluginsFolder, async (err, files) => {
     if (err) {
